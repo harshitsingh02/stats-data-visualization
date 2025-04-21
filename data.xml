@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statistics>
+  <dataset name="Quarterly Sales">
+    <item>
+      <label>Q1 2024</label>
+      <value>45000</value>
+      <color>#4e79a7</color>
+    </item>
+    <item>
+      <label>Q2 2024</label>
+      <value>52000</value>
+      <color>#f28e2c</color>
+    </item>
+    <item>
+      <label>Q3 2024</label>
+      <value>38000</value>
+      <color>#e15759</color>
+    </item>
+    <item>
+      <label>Q4 2024</label>
+      <value>67000</value>
+      <color>#76b7b2</color>
+    </item>
+  </dataset>
+  <dataset name="Market Share">
+    <item>
+      <label>BMW</label>
+      <value>35</value>
+      <color>#59a14f</color>
+    </item>
+    <item>
+      <label>AUDI</label>
+      <value>25</value>
+      <color>#edc949</color>
+    </item>
+    <item>
+      <label>Mercedes</label>
+      <value>20</value>
+      <color>#af7aa1</color>
+    </item>
+    <item>
+      <label>Others</label>
+      <value>20</value>
+      <color>#ff9da7</color>
+    </item>
+  </dataset>
+</statistics>

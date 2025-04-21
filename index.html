@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Statistical Graphics with D3.js</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Import D3.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dynamic Statistical Graphics</h1>
+    <p>Interactive charts with auto-refreshing data (every 10 seconds)</p>
+  </header>
+  
+  <main>
+    <div class="controls">
+      <div class="view-controls">
+        <button id="viewBoth" class="active">Show Both</button>
+        <button id="viewBar">Bar Chart</button>
+        <button id="viewPie">Pie Chart</button>
+      </div>
+      <div class="refresh-controls">
+        <button id="refreshData">Refresh Now</button>
+        <div class="auto-refresh">
+          <input type="checkbox" id="autoRefresh" checked>
+          <label for="autoRefresh">Auto-refresh (10s)</label>
+          <span id="countdown">10</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="charts-container">
+      <div id="barChartContainer" class="chart-wrapper">
+        <h2 id="barChartTitle">Loading...</h2>
+        <div class="data-timestamp" id="barChartTimestamp"></div>
+        <div id="barChart"></div>
+      </div>
+      
+      <div id="pieChartContainer" class="chart-wrapper">
+        <h2 id="pieChartTitle">Loading...</h2>
+        <div class="data-timestamp" id="pieChartTimestamp"></div>
+        <div id="pieChart"></div>
+      </div>
+    </div>
+    
+    <div class="tooltip" id="tooltip">
+      <div class="tooltip-content"></div>
+    </div>
+  </main>
+  
+  <footer>
+    <p>Created with Dynamic XML, JavaScript, and D3.js, by Harshit, Akhilesh, and Riya.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
