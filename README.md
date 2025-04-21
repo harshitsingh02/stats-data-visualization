@@ -2,6 +2,7 @@
 # Dynamic Statistical Graphics
 
 Project Title: Dynamic Statistical Graphics
+
 Description:
 This project delivers a dynamic data visualization dashboard built with modern web technologies. At its core, the application reads XML data representing quarterly sales and market share, then visualizes the data through interactive and animated charts using D3.js. With seamless user controls, the charts automatically refresh every 10 seconds, ensuring that users always see the most recent data. It’s built to be responsive, visually engaging, and easily navigable.
 The user interface includes options to toggle between a bar chart, a pie chart, or both simultaneously. Interactive tooltips and animations enhance usability and provide deeper insights at a glance. The charts are not static—they are regenerated with randomized, realistic values to mimic live data environments, making the tool ideal for demonstrations, dashboards, or educational purposes.
